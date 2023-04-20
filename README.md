@@ -31,7 +31,6 @@ F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')'
 The input and output variables are allocated with letter symbols. The exact truth table that defines the required relationships between inputs and outputs is derived. The simplified Boolean function is obtained from each output. The logic diagram is drawn.
 ```
 ## Program:
-/*
 Program to implement the given logic function using NAND and NOR gates and to verify its operations in quartus using Verilog programming.
 Developed by: b.barathraj
 RegisterNumber: 212222230019
@@ -58,7 +57,6 @@ assign r=(c & ~b & a);
 assign f=((p | q & |r));
 endmodule
 ```
-*/
 ## RTL
 ![rtl ex2](https://user-images.githubusercontent.com/121490575/233249200-4ad795e4-722d-4230-ba04-23185bd56a6b.png)
 
