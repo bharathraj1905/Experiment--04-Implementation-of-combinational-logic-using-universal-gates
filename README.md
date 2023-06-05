@@ -32,8 +32,10 @@ The input and output variables are allocated with letter symbols. The exact trut
 ```
 ## Program:
 Program to implement the given logic function using NAND and NOR gates and to verify its operations in quartus using Verilog programming.
+```
 Developed by: b.barathraj
 RegisterNumber: 212222230019
+```
 ```
 
 module cpmbine(a,b,c,d,f);
